@@ -1,0 +1,109 @@
+/* common code start */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+p,
+ul,ol{
+    margin: 0;
+}
+/* common code end */
+#primary_nav{
+    background-color: #02918c;
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+#primary_nav #menu ul li a{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 13.5px 25px;
+    display: inline-block;
+}
+/* banner section start */
+#banner{
+    background-image: url(./../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 728px;
+    color:#fff ;
+   
+}
+#banner .img{
+    width: 108px;
+    margin-bottom: 50px;
+ 
+    
+}
+#banner h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+#banner h1{
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+#banner p{
+    font-size: 18px;
+   
+}
+#banner a{
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    background-color: #cfc91d;
+    padding: 14px 44px;
+    
+}
+/* banner section end */
+
+/* about section start */
+ #about{
+   margin: 80px 0px 99px;
+   text-align: center;
+} 
+#about .section_info h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+}
+#about .section_info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #c9cbcd;
+    line-height: 41px;
+    margin-bottom: 73px;
+}
+#about .about_box{
+    padding: 35px 62px 55px;
+    border-right: 2px solid #d9dbdb;
+    width: 25%;
+   
+   
+}
+#about .about_box:nth-child(4n),
+#about .about_box:last-child{
+    border: none;
+}
+#about .about_box h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: #c9cbcd;
+    margin: 30px 0px;
+}
+#about .about_box p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #d1d3d4;
+    line-height: 21px;
+}
+/* about section end */
